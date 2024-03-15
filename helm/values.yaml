@@ -1,0 +1,25 @@
+namespace: ""
+
+db_casts:
+  replicaCount: 1
+  image:
+    repository: postgres
+    tag: 12.0-alpine  
+
+db_movies:
+  replicaCount: 1
+  image:
+    repository: postgres
+    tag: 12.0-alpine  
+
+casts:
+  replicaCount: 1
+  image:
+    repository: lbaxel/casts
+    tag: ""
+
+movies:
+  replicaCount: 1
+  image:
+    repository: lbaxel/movies
+    tag: ""
